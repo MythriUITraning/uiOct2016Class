@@ -12,12 +12,13 @@
 
             </style>
             <!--script - this is used to write javascript on the html file itself-->
+
             <script>
 
             </script>
             <!--link - this is used to link an external source-->
             <!--this is used to source only css files and images-->
-            <link rel="" href=""/>
+            <link rel="stylesheet" href="../Styles/Assingment.css"/>
 
             <!--base - this used to specify the base URL of our web page-->
             <!--this is optional and to be written based on server configuration-->
@@ -48,67 +49,60 @@
                     <form name="employeeForm">
                         <!--TextBox-->
                         <!--First Name-->
-                        <div>
                             <label for="firstName"> First Name:</label>
-                            <input type="text" id="firstName" name="fName" placeholder="Enter your First Name"/><br />
-                        </div>
+                            <input type="text" id="firstName" name="fName" placeholder="Enter your First Name"/>
+
 
                         <!--Last Name-->
-                        <div>
+
                             <label for="lastName"> Last Name:</label>
-                            <input type="text" id="lastName" name="lName" placeholder="Enter your Last Name" /><br />
-                        </div>
+                            <input type="text" id="lastName" name="lName" placeholder="Enter your Last Name" />
 
                         <!--Phone Number-->
-                        <div>
+
                             <label for="phoneNumber"> Phone Number:</label>
-                            <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" /><br />
-                        </div>
+                            <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
 
                         <!--checkbox-->
-                        <div>
-                            <label for="Country">Country:</label><br/>
-                            <input type="checkbox" id="Country" name="country" placeholder="India" />India<br>
-                            <input type="checkbox" id="Country" name="country" placeholder="USA" />USA<br>
-                            <input type="checkbox" id="Country" name="country" placeholder="UK"/>UK<br>
+
+                            <label for="Country">Country:</label>
+                            <input type="checkbox" id="Country" name="country" placeholder="India" />India
+                            <input type="checkbox" id="Country" name="country" placeholder="USA" />USA
+                            <input type="checkbox" id="Country" name="country" placeholder="UK"/>UK
                             <input type="checkbox" id="Country" name="country" placeholder="Germany" />Germany
-                        </div><br>
+
                         <!--Radio Button-->
-                        <div>
+
                             <label for="Gender"> Gender:</label>
-                            <div id="Gender">
+
                                 <!--Male-->
                                 <label for="male">Male:</label>
-                                <input type="radio" id="male" name="gender" value="Male"/>
+                                <input type="radio" id="male" name="Gender" value="Male"/>
 
                                 <!--Female-->
                                 <label for="Female">Female:</label>
-                                <input type="radio" id="Female" name="gender" value="Female"/>
-                            </div>
-                        </div><br>
+                                <input type="radio" id="Female" name="Gender" value="Female"/>
+
+
 
                         <!--Email-->
-                        <div>
+
                             <lable for="E-mail:">E-mail:</lable>
                             <input type="email" name="email">
-                        </div><br>
+
                         <!--Username and Password-->
-                        <div>
+
                             <label for="UserName">User name:</label<br>
                             <input type="text" name="UserName"><br>
                             <labelfor="Password">User password:</labelfor>
                             <input type="password" name="psw">
-                        </div>
-                        </div>
-                        <br />
 
                             <!--submit button-->
-                            <input type="submit" value="Submit">
+                            <button type="submit" id="submit">Submit</button>
+
 
                             <!--Reset Botton-->
-                            <button type="reset" id="reset">
-                                <span>Reset</span>
-                            </button>
+                            <button type="reset" id="reset">Reset</button>
 
                     </form>
                 </section>

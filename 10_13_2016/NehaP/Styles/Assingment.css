@@ -1,0 +1,47 @@
+/** adding basic font styles to the document **/
+body {
+        font-family: Arial;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+
+/** addingd styles to the form**/
+form {
+        border: 2px solid #00FFFF;
+        width: 29%;
+        padding: 20px;
+        background-color: #e7ece7;
+     }
+
+/**Adding styles to input field**/
+input, lable{
+                display: block;
+                margin:5px;
+            }
+
+/** Adding style to id="Country"**/
+#Country, #male, #Female{
+                         display: inline-block;
+                        }
+
+/** Adding style to the Submit button**/
+#submit{
+        background-color: #aaaaaa;
+        border-radius:6px;
+        }
+
+/**Adding style to the reset button**/
+#reset{
+        background-color: #ff0428;
+        border-radius:6px;
+      }
+
+/** changing the color of input text box**/
+input[type=text]{
+                    background-color: #fcd9b5;
+                }
+
+
+
+
+
