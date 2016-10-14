@@ -14,14 +14,14 @@ form {
      }
 
 /**Adding styles to input field**/
-input, lable{
+input, label{
                 display: block;
                 margin:5px;
             }
 
 /** Adding style to id="Country"**/
 #Country, #male, #Female{
-                         display: inline-block;
+                            display: inline-block;
                         }
 
 /** Adding style to the Submit button**/
@@ -31,15 +31,15 @@ input, lable{
         }
 
 /**Adding style to the reset button**/
-#reset{
-        background-color: #ff0428;
-        border-radius:6px;
-      }
+#cancle{
+            background-color: #ff0428;
+            border-radius:6px;
+       }
 
 /** changing the color of input text box**/
-input[type=text]{
-                    background-color: #fcd9b5;
-                }
+input[type=text], [type=email], [type=password]{
+                                                    background-color: #fcd9b5;
+                                               }
 
 
 
