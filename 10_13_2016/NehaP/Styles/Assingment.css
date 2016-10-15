@@ -31,7 +31,7 @@ input, label{
         }
 
 /**Adding style to the reset button**/
-#cancle{
+#cancel{
             background-color: #ff0428;
             border-radius:6px;
        }
