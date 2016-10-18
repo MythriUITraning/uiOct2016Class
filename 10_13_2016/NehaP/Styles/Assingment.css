@@ -14,7 +14,7 @@ form {
      }
 
 /**Adding styles to input field**/
-input, label{
+input, lable{
                 display: block;
                 margin:5px;
             }
