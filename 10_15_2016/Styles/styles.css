@@ -1,0 +1,59 @@
+/*Removing browsers inbuilt margin and paddings*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* adding styles to the body*/
+body {
+        font-family: Arial;
+        font-size: 14px;
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+
+    }
+/*biringing header to the center of the page*/
+h1 {
+    text-align: center;
+   }
+
+/** addingd styles to the form**/
+form[name="newLicenseForm"] {
+                                border: 5px solid #00FFFF;
+                                width: 29%;
+                                padding: 20px;
+                                background-color: #e7ece7;
+                                aling: center;
+                                margin: 10px 0px 0px 32%;
+                             }
+
+/**Adding styles to input field**/
+input, lable{
+                display: block;
+                margin:5px;
+             }
+
+input[type=text]{
+                     background-color: #fcd9b5;
+                }
+input[name="gender"]{
+                        display: inline-block;
+                    }
+button[type="submit"], [type="reset"] {
+                                         border-radius:10px;
+                                         border: 2px solid #008CBA;
+                                         border-style: outset;
+                                      }
+button[type="submit"]{
+                        background-color: #4CAF50
+                     }
+button[type="reset"] {
+                        background-color: #f44336
+                     }
+ul{
+    list-style-image: none;
+  }
+li{
+    display:inline;
+    padding: 5px;
+  }

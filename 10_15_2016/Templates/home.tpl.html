@@ -8,7 +8,9 @@
             <title>DMV New License Form</title>
 
             <!--this is external style-->
-            <link href="styles.css" rel="stylesheet"/>
+            <link href="../Styles/styles.css" rel="stylesheet"/>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
         </head>
 
         <!--body of the web page-->
@@ -31,39 +33,48 @@
                         <!--First Name-->
                         <div class="container">
                             <label for="firstName">Applicant's First Name:</label>
-                            <input type="text" id="firstName" name="fName" placeholder="Enter your First Name"/>
+                                <input type="text" id="firstName" name="fName" placeholder="Enter your First Name"/>
                         </div>
                         <br />
                         <!--Last Name-->
                         <div class="container">
                             <label for="lastName">Applicant's Last Name:</label>
-                            <input type="text" id="lastName" name="lName" placeholder="Enter your Last Name"/>
+                                <input type="text" id="lastName" name="lName" placeholder="Enter your Last Name"/>
                         </div>
                         <br />
                         <!--Phone Number-->
                         <div>
                             <label for="phoneNumber">Applicant's Phone Number:</label>
-                            <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
+                                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
                         </div>
                         <br />
                         <!--Gender-->
                         <div>
                             <label for="gender">Applicant's Gender:</label>
-                            <div id="gender">
-                                <!--male-->
-                                <label for="male">Male:</label>
-                                <input type="radio" id="male" name="gender" value="Male"/>
+                                <div id="gender">
+                                    <!--male-->
+                                    <label for="male">Male:</label>
+                                        <input type="radio" id="male" name="gender" value="Male"/>
 
-                                <!--female-->
-                                <label for="female">Female:</label>
-                                <input type="radio" id="female" name="gender" value="Female"/>
-                            </div>
+                                    <!--female-->
+                                    <label for="female">Female:</label>
+                                        <input type="radio" id="female" name="gender" value="Female"/>
+                                </div>
                         </div>
                         <br />
+                        <!--Age group-->
+                        <div>
+                            Applicant's Age
+                            <ul>
+                                <li>18 to 25</li>
+                                <li>26 to 35</li>
+                                <li>36 and above</li>
+                            </ul>
+                        </div>
                         <!--senior citizen-->
                         <div class="container">
                             <label for="seniorCitizen">Is applicant a senior citizen?</label>
-                            <input type="checkbox" id="seniorCitizen" name="seniorCitizen" data-srikar="viswa"/>
+                                <input type="checkbox" id="seniorCitizen" name="seniorCitizen" data-srikar="viswa"/>
                         </div>
                         <!--submit button-->
                         <button type="submit" id="submit">
