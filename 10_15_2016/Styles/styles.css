@@ -19,13 +19,13 @@ h1 {
 
 /** addingd styles to the form**/
 form[name="newLicenseForm"] {
-                                border: 5px solid #00FFFF;
-                                width: 29%;
-                                padding: 20px;
-                                background-color: #e7ece7;
-                                aling: center;
-                                margin: 2% 0px 0px 32%;
-                             }
+    border: 5px solid #00FFFF;
+    width: 29%;
+    padding: 20px;
+    background-color: #e7ece7;
+    aling: center;
+    margin: 2% 0px 0px 32%;
+    }
 
 /**Adding styles to input field**/
 input, lable{
@@ -40,7 +40,7 @@ input[name="gender"]{
                         display: inline-block;
                     }
 button[type="submit"], [type="reset"] {
-                                         border-radius:10px;
+                                         border-radius:10px ;
                                          border: 2px solid #008CBA;
                                          border-style: outset;
                                       }
