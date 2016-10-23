@@ -32,14 +32,16 @@ input, lable{
 
 /**Adding style to the reset button**/
 #cancel{
-            background-color: #ff0428;
-            border-radius:6px;
-       }
+    background-color: #ff0428;
+    border-radius:6px;
+}
 
 /** changing the color of input text box**/
-input[type=text], [type=email], [type=password]{
-                                                    background-color: #fcd9b5;
-                                               }
+input[type=text],
+[type=email],
+[type=password]{
+    background-color: #fcd9b5;
+}
 
 
 
