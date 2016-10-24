@@ -1,0 +1,120 @@
+{
+    margin: opx;
+    border: 0px;
+}
+/*giving styles to the background of the form*/
+body {
+    background: url('473076227.jpg');
+    width: 100%;
+    height:100%;
+    margin: 0;
+}
+/* styling header of the form*/
+header{
+    color: #fff;
+    position: fixed;
+    left: 490px;
+    top: 0px;
+}
+/*styling the form of my website*/
+form[name="main-form"]{
+    position: absolute;
+    border: 5px solid #e3ced8;
+    border-radius:0px 20px 0px 20px;
+    border-style: ridge;
+    width: 30%;
+    background: #f8cb9e;
+    margin-top: 5px;
+}
+/*styling the Navigation bar*/
+ul{
+    list-style-image: none;
+}
+li{
+    display:inline;
+    padding: 5px;
+}
+li a{
+    padding:30px;
+}
+li a:hover {
+    background-color: #9ab98c;
+    color: #c2511e;
+    height:5px:
+}
+#main-nav{
+   position: relative;
+   padding: 1px;
+   background: #d5f735;
+   margin-top: 72px;
+   width: 100%;
+   height: 49px;
+}
+/*styling all the label and input elements*/
+label{
+    display: block;
+    padding: 16px;
+}
+
+label[for="male"],
+label[for="female"],
+label[for="country"]{
+    display: inline;
+    padding: 20px 8px 9px 16px;
+}
+input[type="text"] {
+    padding: 14px;
+    margin-left: 17px;
+    padding-right: 52px;
+}
+input[type=text]:hover{
+    background: #7b4861;
+    border: 1px solid:
+}
+/* giving styles to the button*/
+button{
+    border: 2px solid #4a4528;
+    padding: 12px 24px;
+    border-radius: 23px;
+}
+/*giving styles to the both submit and cancle button*/
+button[type="submit"]{
+    background: #1e1fc4;
+}
+button[type="submit"]:hover{
+    border: 3px solid #503604;
+    background: #d9f746;
+}
+button[type="reset"]{
+    background: #ff0918;
+}
+button[type="reset"]:hover{
+    background: #1de71f;
+    border: 3px solid #503604;
+}
+/*Styling footer of the form*/
+#main-footer{
+    position: relative;
+    width: 100% !important;
+    height: 15px !important;
+    margin-top: 450px;
+    text-align: center;
+    background-color: #e3f977 !important;
+    padding-bottom: 10px;
+}
+aside{
+    margin-left: 300px;
+    margin-top: 468px;
+    position: absolute;
+}
+div,p{
+    color: #ff1a28;
+}
+div+p{
+    color: #d6b9c7;
+}
+div~p{
+    color: #abe473;
+}
+
+

@@ -36,10 +36,9 @@ li a{
 }
 /*styles for buttons*/
 button{
-    border: 1px solid #5e5e5e;
+    border: 2px solid #6f6f6f;
     border-radius: 5px;
-    color: #fff;
-    padding: 10px 20px;
+    padding: 7px 12px;
     margin: 10px;
 }
 /*applying styles to submit button*/
@@ -66,23 +65,27 @@ label[for="seniorCitizen"]{
     display: inline;
 }
 #section1{
-    position: relative;
+   position: relative;
+   top: 45px;
 }
 /* for the navigation bar*/
 #main-nav{
-    position: absolute;
-    width: 100%;
-    background: #dee696;
+   position: absolute;
+   width: 100%;
+   background: #dee696;
+   height: 67px;
+   top: 7px;
 }
 /*fixing the position of the main heading*/
 #mainheading{
+    position: fixed;
     top: 0;
     left: 550px;
     background: #fff;
 }
 /*style for footer by using position css property*/
 #mainfooter{
-    position: absolute;
+    position: fixed;
     top: 881px;
     background: #f5fb91;
     width:100%;
@@ -90,7 +93,7 @@ label[for="seniorCitizen"]{
 }
 /*style for the footer navigation*/
 #navigation{
-  position: relative;
+  position: absolute;
   top: -29px;
 }
 /*styles for must read p*/
