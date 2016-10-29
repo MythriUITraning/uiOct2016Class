@@ -94,13 +94,14 @@ button[type="reset"]:hover{
 }
 /*Styling footer of the form*/
 #main-footer{
-    position: relative;
+    position: fixed;
     width: 100% !important;
     height: 15px !important;
     margin-top: 450px;
     text-align: center;
     background-color: #e3f977 !important;
     padding-bottom: 10px;
+    bottom: 0px;
 }
 aside{
     margin-left: 300px;
