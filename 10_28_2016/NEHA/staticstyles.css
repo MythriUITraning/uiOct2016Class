@@ -1,0 +1,86 @@
+{
+    margin: 0;
+    padding: 0;
+}
+/*giving background image to the body of the web page*/
+body{
+   background-image: url('img2.jpg');
+  }
+header{
+    background-image: url('img1.jpg');
+    background-repeat: no-repeat;
+    background-size: 92px 100%;
+    position: relative;
+    height: 73px;
+}
+/*giving style to the h1 of header*/
+#mainheading{
+    text-align: center;
+    color: #d71a1c;
+    font-size: 250%;
+    position: relative;
+    margin: 0px;
+}
+/*styling the navigation bar*/
+#navbar{
+   width: 100%;
+   height: 50px;
+   background: #bcd04a;
+   padding-top: 2px;
+   position: absolute;
+   top: 80px;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    float: left;
+}
+li a{
+    padding: 13px 40px;
+    color: black;
+    display: block;
+    text-align: center;
+}
+li a:hover {
+    background-color:#fede23;
+}
+#section1{
+    top: 6px;
+    font-size: 32px;
+    color: #380c6e;
+    height: 107px;
+}
+form[name="regform"]{
+    background: #eadc62;
+    border: 2px solid #a0a1d7;
+    width: 30%;
+    height: 100%;
+}
+div{
+    margin: 13px 22px;
+    display: inline-block;
+}
+label{
+    display: block;
+    padding: 10px 0;
+}
+/*shifting aside in the right side of the section2*/
+aside{
+    position: relative;
+    float: right;
+    top: -360px;
+    left: -288px;
+}
+/*styling footer*/
+#main_footer{
+    background: #ed641e;
+}
+a{
+    display: inline-block;
+    margin-left: 39px;
+    position: relative;
+    padding: 2px 2px 2px 2px;
+}
