@@ -32,17 +32,23 @@
     }
 
 }
-aside{
-    animation: flashingbaner 3s infinite;
-    -webkit-animation: flashingbaner 3s infinite;
-    -moz-animation: flashingbaner 3s infinite;
-    -o-animation: flashingbaner 3s infinite;
-    -ms-animation: flashingbaner 3s infinite;
-
-    -webkit-animation-iteration-count: 3;
-    -moz-animation-iteration-count: 3;
-    -o-animation-iteration-count: 3;
-    -ms-animation-iteration-count: 3;
-    animation-iteration-count: 3;*/
-
+#img3{
+    animation: flashingbaner 3s ;
+    -webkit-animation: flashingbaner 3s;
+    -moz-animation: flashingbaner 3s;
+    -o-animation: flashingbaner 3s;
+    -ms-animation: flashingbaner 3s;
+/* iteration counts for aside image*/
+    -webkit-animation-iteration-count: 7;
+    -moz-animation-iteration-count: 7;
+    -o-animation-iteration-count: 7;
+    -ms-animation-iteration-count: 7;
+    animation-iteration-count: 7;*/
+}
+.offer{
+    transform: rotate3d(40,45,90,180deg);
+    -webkit-transform: rotate3d(40,45,90,180deg);
+    -moz-transform: rotate3d(40,45,90,180deg);
+    -o-transform: rotate3d(40,45,90,180deg);
+    -ms-transform: rotate3d(40,45,90,180deg);
 }

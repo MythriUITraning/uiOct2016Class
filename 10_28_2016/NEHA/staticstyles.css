@@ -63,9 +63,36 @@ div{
     margin: 13px 22px;
     display: inline-block;
 }
+/*styling the label*/
 label{
     display: block;
     padding: 10px 0;
+}
+/*styling the input element*/
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover{
+    border: 2px solid #da1d5d;
+}
+button{
+    border: 2px solid #4a4528;
+    padding: 12px 24px;
+    border-radius: 23px;
+}
+/*giving styles to the both submit and cancle button*/
+button[type="submit"]{
+    background: #1e1fc4;
+}
+button[type="submit"]:hover{
+    border: 3px solid #503604;
+    background: #d9f746;
+}
+button[type="reset"]{
+    background: #ff0918;
+}
+button[type="reset"]:hover{
+    background: #1de71f;
+    border: 3px solid #503604;
 }
 /*shifting aside in the right side of the section2*/
 aside{
@@ -83,4 +110,10 @@ a{
     margin-left: 39px;
     position: relative;
     padding: 2px 2px 2px 2px;
+}
+.offer{
+    position: absolute;
+    font-size: 50px;
+    top: -121px;
+    color: #710f30;
 }
