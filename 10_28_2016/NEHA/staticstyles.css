@@ -78,6 +78,7 @@ button{
     border: 2px solid #4a4528;
     padding: 12px 24px;
     border-radius: 23px;
+    color: white;
 }
 /*giving styles to the both submit and cancle button*/
 button[type="submit"]{
@@ -85,7 +86,7 @@ button[type="submit"]{
 }
 button[type="submit"]:hover{
     border: 3px solid #503604;
-    background: #d9f746;
+    background: #fba004;
 }
 button[type="reset"]{
     background: #ff0918;
