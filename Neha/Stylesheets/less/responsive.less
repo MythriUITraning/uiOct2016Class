@@ -1,8 +1,0 @@
-.generate-columns(12);
-
-.generate-columns(@c, @i) when (@i <= @C){
-    .column-@{i} {
-        width: ((@i*100%)/@c);
-    }
-    .generate-columns(@c , (@i+1));
-}
