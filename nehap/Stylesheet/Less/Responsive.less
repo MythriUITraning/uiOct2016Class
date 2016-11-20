@@ -1,0 +1,13 @@
+.resp-mixin(@col-size; @i) when (@col-size < 13){
+    .column-@{i}-@{col-size} {
+        width: (100% / (12/@col-size));
+        float:left;
+
+    }
+
+    .column-offset-@{i}-@{col-size} {
+       margin-left: (100% / (12/@col-size));
+    }
+
+    .resp-mixin((@col-size+1); @i);
+}
