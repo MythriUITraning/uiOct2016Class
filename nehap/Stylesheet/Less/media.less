@@ -1,15 +1,17 @@
-@media (min-width: 350px) {
+//for phones
+@media only screen (min-width: 350px) and (max-width: 450px){
 	.resp-mixin(1; xs);
 }
-
-@media (min-width: 500px) {
+//for i-pad minis or small screem
+@media only screenc (min-width: 500px) and (max-width: 700px){
   	.resp-mixin(1; sm);
 }
 
-@media (min-width: 956px) {
+//for small screem laptos
+@media only screen (min-width: 956px){
 	.resp-mixin(1; md);
 }
 
-@media (min-width: 1200px) {
+@media only screen(min-width: 1200px) and (max-width: 1500px) {
 	.resp-mixin(1; lg);
 }
