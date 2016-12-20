@@ -27,6 +27,7 @@
             _cal.substract = num.difference();
             _cal.product = num.multiplication();
             _cal.dividend = num.division();
+            console.log(num);
     }
         var ans = new total();
         console.log(ans);
