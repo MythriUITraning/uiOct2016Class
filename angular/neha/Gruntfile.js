@@ -356,7 +356,7 @@ module.exports = function (grunt) {
           expand: true,
           cwd: '.tmp/concat/scripts',
           src: '*.js',
-          dest: '.tmp/concat/scripts'
+          dest:'.tmp/concat/scripts'
         }]
       }
     },

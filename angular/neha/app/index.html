@@ -21,7 +21,14 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
+    <div ng-controller="projectController">
+      <span>"Hello World!"</span>
+    </div>
 
+    <!--Another controller-->
+    <div ng-controller = "nehaController">
+        <span>My name is Neha</span>
+    </div>
 
     <!----------------------------------------------->
 
@@ -55,7 +62,8 @@
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
-
+        <script src="scripts/Controllers/ProjectController.js"></script>
+        <script src="scripts/Controllers/NehaController.js"></script>
         <!-- endbuild -->
 </body>
 </html>
